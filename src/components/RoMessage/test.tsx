@@ -5,16 +5,17 @@ function Aaa() {
   const message = useMessage();
 
   return (
-    <button
-      onClick={() => {
-        message.add({
-          content: "请求成功",
-          position: "bottom",
-        });
-      }}
-    >
-      成功
-    </button>
+    <>
+      <button
+        onClick={() => {
+          message.add({
+            content: "message content",
+          });
+        }}
+      >
+        top message
+      </button>
+    </>
   );
 }
 

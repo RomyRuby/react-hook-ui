@@ -3,13 +3,13 @@ import Popover from ".";
 export default function App() {
   const popoverContent = (
     <div>
-      光光光
+      popover content
       <button
         onClick={() => {
           alert(1);
         }}
       >
-        111
+        alert
       </button>
     </div>
   );
@@ -21,7 +21,7 @@ export default function App() {
       trigger="click"
       style={{ margin: "200px" }}
     >
-      <button>点我点我</button>
+      <button>popover</button>
     </Popover>
   );
 }

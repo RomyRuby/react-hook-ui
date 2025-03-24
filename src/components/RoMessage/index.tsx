@@ -1,14 +1,5 @@
-import {
-  CSSProperties,
-  FC,
-  ReactNode,
-  forwardRef,
-  useEffect,
-  useImperativeHandle,
-  useMemo,
-  useRef,
-} from "react";
-import useStore, { MessageList } from "./useStore";
+import { CSSProperties, FC, ReactNode, forwardRef, useMemo } from "react";
+import useStore from "./useStore";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 import "./index.scss";
