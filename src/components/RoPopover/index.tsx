@@ -72,7 +72,7 @@ export default function Popover(props: PopoverProps) {
 
   const el = useMemo(() => {
     const el = document.createElement("div");
-    el.className = `wrapper`;
+    el.className = `popover-wrapper`;
 
     document.body.appendChild(el);
     return el;

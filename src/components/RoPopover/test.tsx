@@ -15,13 +15,23 @@ export default function App() {
   );
 
   return (
-    <Popover
-      content={popoverContent}
-      placement="bottom"
-      trigger="click"
-      style={{ margin: "200px" }}
-    >
-      <button>popover</button>
-    </Popover>
+    <>
+      <Popover
+        content={popoverContent}
+        placement="bottom"
+        trigger="click"
+        style={{ margin: "200px" }}
+      >
+        <button>popover</button>
+      </Popover>
+      <Popover
+        content={popoverContent}
+        placement="bottom"
+        trigger="click"
+        style={{ margin: "200px" }}
+      >
+        <button>popover</button>
+      </Popover>
+    </>
   );
 }
